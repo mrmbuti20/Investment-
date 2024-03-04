@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investment Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>CHAMPION INVESTIMENT</h1>
+  <div class="vip-packages">
+    <div class="vip-package">
+      <h2>VIP One</h2>
+      <p>Investment Amount:Tsh 50k</p>
+      <a href="https://tanzaniainvestment.jimdofree.com/vip-one" target="_blank">INVEST</a>
+    </div>
+    <div class="vip-package">
+      <h2>VIP Two</h2>
+      <p>Investment Amount:Tsh 100k</p>
+      <a href="https://tanzaniainvestment.jimdofree.com/vip-two" target="_blank">INVEST</a>
+    </div>
+    <div class="vip-package">
+      <h2>VIP Three</h2>
+      <p>Investment Amount:Tsh 150k</p>
+      <a href="https://tanzaniainvestment.jimdofree.com/vip-three" target="_blank">INVEST</a>
+    </div>
+  </div>
+  <title>INVESTMENT MINING</title><style>body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80000px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.vip-packages {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:0px;
+}
+
+.vip-package {
+    flex: 1;
+    background-color:black;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vip-package h2 {
+    text-align: center;
+}
+
+.vip-package p {
+    margin-bottom: 10px;
+}
+
+.vip-package a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color:blue;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.vip-package a:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.error {
+    background-color: #dc3545;
+    color: #fff;
+
+</style><script>document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form data
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var message = document.getElementById('message').value;
+
+    // Your form submission logic here (e.g., send data to server)
+
+    // Display success or error message
+    var messageElement = document.getElementById('message');
+    if (name && email && phone && message) {
+        messageElement.className = 'success';
+        messageElement.textContent = 'Your message has been sent successfully!';
+        // Clear form inputs after successful submission
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('phone').value = '';
+        document.getElementById('message').value = '';
+    } else {
+        messageElement.className = 'error';
+        messageElement.textContent = 'Please fill out all fields.';
+    }
+});
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investment Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white; /* Change background color to black */
+    color: #fff; /* Change text color to white */
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color:black; /* Darker shade of black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  #message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .success {
+    background-color:red;
+    color: #fff;
+  }
+
+  .error {
+    background-color: #dc3545;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>CHAMPION INVERSTMENT FORM</h1>
+  <form id="investmentForm" action="#" method="post">
+    <div class="form-group">
+      <label for="name">Full name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+    </div>
+    <div class="form-group">
+      <label for="amount">Investment Amount (tsh):</label>
+      <input type="number" id="amount" name="amount" required>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+  <div id="message"></div>
+</div>
+
+<script>
+  document.getElementById('investmentForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form data
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var address = document.getElementById('address').value;
+    var amount = document.getElementById('amount').value;
+
+    // Your form submission logic here (e.g., send data to server)
+
+    // Display success or error message
+    var messageElement = document.getElementById('message');
+    if (name && email && phone && address && amount) {
+      messageElement.className = 'success';
+      messageElement.textContent = 'Your amount hasbeen failed to invest in our company pay it to MR C.E.Obefore fill the form';
+    } else {
+      messageElement.className = 'error';
+      messageElement.textContent = 'Please fill out all fields.';
+    }
+  });
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .chat-container {
+            width: 200px;
+            margin:0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding:60px;
+            font-family: Arial, sans-serif;
+        }
+
+        .message {
+            background-color:blue;
+            padding: 10px;
+            margin-bottom: 20px; /* Increase the margin-bottom */
+            border-radius: 5px;
+        }
+
+        .reply {
+            background-color:green;
+            padding: 10px;
+            margin-bottom: 20px; /* Increase the margin-bottom */
+            border-radius: 5px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container" id="chat-container">
+    <!-- Chat messages will be added here -->
+</div>
+
+<script>
+    function sendMessage() {
+        var message = document.getElementById('message-input').value;
+        if (message.trim() === '') return; // Don't send empty messages
+        
+        var container = document.getElementById('chat-container');
+        
+        // User message
+        var userDiv = document.createElement('div');
+        userDiv.className = 'message';
+        userDiv.innerHTML = message;
+        container.appendChild(userDiv);
+        
+        // Automatic reply
+        var replyDiv = document.createElement('div');
+        replyDiv.className = 'reply';
+        replyDiv.innerHTML = 'Before fill the form invest your amount to this C.E.O number +255683236465 airtelmoney mr Farid ally after sending money back to the form and fill it again .thank for contact me.'; // Example automatic reply
+        container.appendChild(replyDiv);
+        
+        // Clear input field
+        document.getElementById('message-input').value = '';
+    }
+</script>
+
+<!-- Input field for sending messages -->
+<input type="text" id="message-input" placeholder="type how to invest...">
+<button onclick="sendMessage()">Send</button>
+
+</body>
+</html>
